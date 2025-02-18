@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Student Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="toggle-theme">Dark Mode</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile">
+            <img src="professional-male-avatar-profile-picture-employee-work_1322206-66590.avif" alt="Profile Picture">
+            <h2>Hello</h2>
+            <p>A bit about me: I am a university CS student passionate about technology and innovation.</p>
+            <div class="buttons">
+                <a href="resume.html" class="btn">Resume</a>
+                <a href="projects.html" class="btn">Projects</a>
+                <a href="contact.html" class="btn">Contact</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Phone: 123-456-7890 | Email: student@example.com | Follow me on <a href="#">LinkedIn</a> & <a href="#">Twitter</a></p>
+    </footer>
+    <script>
+        document.getElementById('toggle-theme').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
